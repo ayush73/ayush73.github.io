@@ -2,7 +2,7 @@ console.log('Its working')
 let theme = localStorage.getItem('theme')
 
 if(theme == null){
-	setTheme('dark')
+	setTheme('light')
 }else{
 	setTheme(theme)
 }
@@ -18,7 +18,7 @@ for (var i=0; themeDots.length > i; i++){
 
 
 function setTheme(mode){
-	if(mode == 'dark'){
+	if(mode == 'light'){
 		document.getElementById('theme-style').href = 'default.css'
 	}
 
