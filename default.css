@@ -177,11 +177,11 @@ box-shadow: 7px 2px 19px 1px rgba(0,0,0,0.75);
 }
 
 #light-mode{
-    background-color: #fff;
+    background-color: #000000;
 }
 
 #blue-mode{
-    background-color: #192734;
+    background-color : #FFFFFF;
 }
 
 #green-mode{
