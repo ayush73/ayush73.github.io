@@ -18,7 +18,7 @@ for (var i=0; themeDots.length > i; i++){
 
 
 function setTheme(mode){
-	if(mode == 'light'){
+	if(mode == 'dark'){
 		document.getElementById('theme-style').href = 'default.css'
 	}
 
